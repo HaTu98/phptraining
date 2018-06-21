@@ -116,4 +116,7 @@ class TicketController extends Controller
         
         return $data;
     }
+    public function test () {
+        echo '1235';
+    }
 }
